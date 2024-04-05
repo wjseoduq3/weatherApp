@@ -174,20 +174,6 @@ background-color: rgb(255, 0, 255);</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QTextEdit" name="feel_temp_no">
-    <property name="geometry">
-     <rect>
-      <x>60</x>
-      <y>450</y>
-      <width>95</width>
-      <height>60</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">border: 2px solid;
-border-color: rgb(85, 85, 0);</string>
-    </property>
-   </widget>
    <widget class="QLabel" name="weather_image">
     <property name="geometry">
      <rect>
@@ -198,7 +184,7 @@ border-color: rgb(85, 85, 0);</string>
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string>날씨 이미지</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -223,10 +209,10 @@ border-color: rgb(85, 85, 0);</string>
      </font>
     </property>
     <property name="text">
-     <string>00.0˚ </string>
+     <string>00.0˚</string>
     </property>
     <property name="alignment">
-     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
    <widget class="QLabel" name="super_dust_info">
@@ -257,32 +243,91 @@ background-color: rgb(85, 0, 255);</string>
      <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QTextEdit" name="dust_level">
+   <widget class="QLabel" name="feel_temp_no">
     <property name="geometry">
      <rect>
-      <x>225</x>
-      <y>450</y>
-      <width>95</width>
-      <height>60</height>
+      <x>63</x>
+      <y>452</y>
+      <width>91</width>
+      <height>61</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>함초롬바탕</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">border: 2px solid;
-border-color: rgb(85, 85, 0);</string>
+     <string notr="true">border: 2px, solid;
+border-color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
-   <widget class="QTextEdit" name="super_dust_level">
+   <widget class="QLabel" name="dust_level">
     <property name="geometry">
      <rect>
-      <x>370</x>
+      <x>226</x>
       <y>450</y>
-      <width>95</width>
-      <height>60</height>
+      <width>91</width>
+      <height>61</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>함초롬바탕</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">border: 2px solid;
-border-color: rgb(85, 85, 0);</string>
+     <string notr="true">border: 2px, solid;
+border-color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="super_dust_level">
+    <property name="geometry">
+     <rect>
+      <x>372</x>
+      <y>450</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>함초롬바탕</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border: 2px, solid;
+border-color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
   </widget>
